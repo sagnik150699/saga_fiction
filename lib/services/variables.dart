@@ -6,7 +6,20 @@ class Variables {
     return Text(
       str,
       textAlign: TextAlign.center,
-      style: GoogleFonts.poppins(
+      style: GoogleFonts.montserrat(
+        textStyle: TextStyle(decoration: TextDecoration.none,
+          color: colour,
+          fontSize: size,
+          fontWeight: weight,
+        ),
+      ),
+    );
+  }
+  Text text1(str, size, colour, weight) {
+    return Text(
+      str,
+      textAlign: TextAlign.left,
+      style: GoogleFonts.montserrat(
         textStyle: TextStyle(decoration: TextDecoration.none,
           color: colour,
           fontSize: size,
