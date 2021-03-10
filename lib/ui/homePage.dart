@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //Buy Now
                         Container(
-                          width: categoryWidth / 3,
+                          width: categoryWidth / 2.5,
                           child: MaterialButton(
                             onPressed: () {
                               Navigator.push(
@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage> {
                               );
                             },
                             child: variable.text2(
-                                "BUY NOW", 20.0, Colors.white, FontWeight.normal),
+                                "Buy now", 17.0, Colors.white, FontWeight.normal),
                             height: categoryHeight / 15,
                             color: Color(0xff0C0D34),
                             shape: RoundedRectangleBorder(
@@ -181,7 +181,7 @@ class _HomePageState extends State<HomePage> {
                         SizedBox(width: 5),
                         //Bookmark
                         Container(
-                          width: categoryWidth / 3,
+                          width: categoryWidth / 2.5,
                           child: MaterialButton(
                             onPressed: () {
                               Navigator.push(
@@ -189,7 +189,7 @@ class _HomePageState extends State<HomePage> {
                               MaterialPageRoute(
                                   builder: (context) => PreviewPage()),
                             );},
-                            child: variable.text2("Bookmark", 20.0, Colors.white,
+                            child: variable.text2("Bookmark", 17.0, Colors.white,
                                 FontWeight.normal),
                             height: categoryHeight / 15,
                             color: Color(0xff0C0D34),

@@ -74,7 +74,7 @@ class _PreviewPageState extends State<PreviewPage> {
                       //mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        variable.text1("Desvendando\nPrincesas", 30.0, Colors.black,
+                        variable.text1("Desvendando\nPrincesas", 23.0, Colors.black,
                             FontWeight.normal),
                         SizedBox(
                           height: 10,
@@ -86,7 +86,7 @@ class _PreviewPageState extends State<PreviewPage> {
                             variable.text2(
                                 "14.1K", 15.0, Colors.black, FontWeight.w200),
                             SizedBox(
-                              width: 20,
+                              width: 15,
                             ),
                             Icon(
                               Icons.bookmark_border,
@@ -95,7 +95,7 @@ class _PreviewPageState extends State<PreviewPage> {
                             variable.text2(
                                 "5.6K", 15.0, Colors.black, FontWeight.w200),
                             SizedBox(
-                              width: 20,
+                              width: 15,
                             ),
                             Icon(
                               Icons.download_outlined,
@@ -161,7 +161,7 @@ class _PreviewPageState extends State<PreviewPage> {
                         color: Colors.white,
                         onPressed: () {},
                         child: variable.text2(
-                            "Infor", 20.0, Colors.grey, FontWeight.normal),
+                            "Infor", 17.0, Colors.grey, FontWeight.normal),
                         shape: RoundedRectangleBorder(
                           // side: BorderSide(
                           //  color: Colors.pinkAccent,
@@ -178,12 +178,12 @@ class _PreviewPageState extends State<PreviewPage> {
                     ),
                     //Episodes
                     SizedBox(
-                      width: categoryWidth / 3.4,
+                      width: categoryWidth / 3.1,
                       child: MaterialButton(
                         height: categoryHeight / 15,
                         color: Colors.white,
                         onPressed: () {},
-                        child: variable.text2("Episodes", 20.0,
+                        child: variable.text2("Episodes", 17.0,
                             Colors.grey.shade500, FontWeight.normal),
                       ),
                     ),
@@ -198,7 +198,7 @@ class _PreviewPageState extends State<PreviewPage> {
                         color: Colors.white,
                         onPressed: () {},
                         child: variable.text2(
-                            "Infor", 20.0, Colors.grey, FontWeight.normal),
+                            "Review", 17.0, Colors.grey, FontWeight.normal),
                         shape: RoundedRectangleBorder(
                           // side: BorderSide(
                           //  color: Colors.pinkAccent,
@@ -222,13 +222,13 @@ class _PreviewPageState extends State<PreviewPage> {
                       MaterialButton(
                         padding: EdgeInsets.all(0),
                         onPressed: () async {
-                          EpubViewer.setConfig(
-                            themeColor: Theme.of(context).primaryColor,
-                            identifier: "androidBook",
-                            scrollDirection: EpubScrollDirection.VERTICAL,
-                            allowSharing: true,
-                            enableTts: true,
-                          );
+                          // EpubViewer.setConfig(
+                          //   themeColor: Theme.of(context).primaryColor,
+                          //   identifier: "androidBook",
+                          //   scrollDirection: EpubScrollDirection.VERTICAL,
+                          //   allowSharing: true,
+                          //   enableTts: true,
+                          // );
                           await EpubViewer.openAsset(
                             'assets/3.epub',
                           );
@@ -313,7 +313,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                   variable.text2(
                                       "14.1K", 15.0, Colors.black, FontWeight.w200),
                                   SizedBox(
-                                    width: 20,
+                                    width: 15,
                                   ),
                                   Icon(
                                     Icons.bookmark_border,
@@ -322,7 +322,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                   variable.text2(
                                       "5.6K", 15.0, Colors.black, FontWeight.w200),
                                   SizedBox(
-                                    width: 20,
+                                    width: 15,
                                   ),
                                   Icon(
                                     Icons.download_outlined,
@@ -370,7 +370,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                   variable.text2(
                                       "14.1K", 15.0, Colors.black, FontWeight.w200),
                                   SizedBox(
-                                    width: 20,
+                                    width: 15,
                                   ),
                                   Icon(
                                     Icons.bookmark_border,
@@ -379,7 +379,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                   variable.text2(
                                       "5.6K", 15.0, Colors.black, FontWeight.w200),
                                   SizedBox(
-                                    width: 20,
+                                    width: 15,
                                   ),
                                   Icon(
                                     Icons.download_outlined,
@@ -427,7 +427,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                   variable.text2(
                                       "14.1K", 15.0, Colors.black, FontWeight.w200),
                                   SizedBox(
-                                    width: 20,
+                                    width: 15,
                                   ),
                                   Icon(
                                     Icons.bookmark_border,
@@ -436,7 +436,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                   variable.text2(
                                       "5.6K", 15.0, Colors.black, FontWeight.w200),
                                   SizedBox(
-                                    width: 20,
+                                    width: 15,
                                   ),
                                   Icon(
                                     Icons.download_outlined,
@@ -448,7 +448,7 @@ class _PreviewPageState extends State<PreviewPage> {
                               ),
                             ],
                           ),
-                          trailing: variable.text1("1:25:00", 15.0,
+                          trailing: variable.text1("1:25:00", 14.0,
                               Colors.grey.shade500, FontWeight.normal),
                         ),
                       ),
